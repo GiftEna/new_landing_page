@@ -6,8 +6,32 @@ img {
     object-position: right bottom;
   }
   
-.text1{
-    float: left;
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.girlpicture{
+    background-image: url("/assets/png/blue_shape.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.bigOneLeft{
+    width: 68%;
+    background-color: #afeeff;
+}
+
+.smalls{
+    width: 30%;
+}
+
+.sexualHealth{
+    background-color: #d8e8ff;
+}
+
+.products{
+    background-color: #f4ede6 ;
 }
 
 .appstore{
@@ -16,4 +40,12 @@ img {
 
 .googleplay{
     width: 20%
+}
+
+.medicine{
+    width: 40%;
+}
+
+.audiophone{
+    width: 40%;
 }
