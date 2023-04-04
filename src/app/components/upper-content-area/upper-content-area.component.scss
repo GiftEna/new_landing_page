@@ -7,14 +7,42 @@ img {
   }
   
 .wrapper{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
+    padding-bottom: 4rem;
 }
+.entiretext{
+    width: 65%;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+.p1{
+    font-weight: bold;
+}
+
+.p2{
+    font-weight: bold;
+}
+
+.p3{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 17px;
+}
+
+.p4{
+    font-size: 17px;
+}
+
 .girlpicture{
     background-image: url("/assets/png/blue_shape.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
+    width: 89%;
 }
 
 .bigOneLeft{
@@ -31,21 +59,58 @@ img {
 }
 
 .products{
+    padding: 1rem;
     background-color: #f4ede6 ;
 }
 
+.child_text1{
+    width: 55%;
+}
+
+.child_picture1{
+    width: 40%;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid_container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid_child_text{
+    padding: 2rem;
+    padding-right: 0;
+}
+
+.p2{
+    margin-top: 2rem;
+}
+
+.medicine2{
+    background-image: url("/assets/png/beige_semicircle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
 .appstore{
-    width: 20%
+    width: 40%;
 }
 
 .googleplay{
-    width: 20%
+    width: 40%;
 }
 
 .medicine{
-    width: 40%;
+    margin-right: 2rem;
+    width: 100%;
 }
 
 .audiophone{
-    width: 40%;
+    padding: 1rem;
+    width: 95%;
 }

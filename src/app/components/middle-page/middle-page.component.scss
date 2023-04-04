@@ -1,0 +1,45 @@
+.blog{
+    background-color: #f7f7f7;
+}
+
+.a_blog{
+    width: 90%;
+}
+
+.messenger{
+    width: 80%;
+}
+ .messenger2{
+    background-color: #fffbf2;
+ }
+ .parent{
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    column-gap: 30px;
+
+}
+
+ .wrapper{
+    width: 100%;
+    background-color:#e2eeec;
+}
+
+.grid_child_text{
+    width: 55%;
+}
+
+.grid_child_picture{
+    width: 50%;
+}
+
+.container3{
+    background-color: #f3ede8;
+}
+
+.b{
+    float: right;
+}
+.join{
+    text-align: end;
+}
