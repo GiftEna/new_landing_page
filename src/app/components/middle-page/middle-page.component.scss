@@ -31,6 +31,10 @@
 .p2{
     color: #777777;
     margin: 0;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
 }
 
 .p4{
@@ -39,32 +43,47 @@
 
 .blog{
     background-color: #f7f7f7;
+    padding: 1rem;
 }
+
 .messenger2{
     background-color: #fffbf2;
+    padding: 1rem;
  }
 .red_audiphone{
     margin-left: 2rem;
-    width: 70%;
+    width: 90%;
 } 
 
 .join{
     text-align: end;
-    font-size: 14px;
-    margin: 0;
- }
- h5{
+    font-size: 16px;
     margin: 0;
  }
 
+ h3{
+    font-weight: bold;
+ }
+.first_p{
+    color: #777777;
+    font-weight: bold;
+}
+
+ h5{
+    margin: 0;
+    font-weight: bold;
+ }
+
 h4{
+    font-size: 25px;
     font-weight: bold;
 }
  .grid_child_text{
     width: 45%;
-    padding-top: 2rem;
+    padding-top: 4rem;
  }
 
  .grid_child_picture{
-    width: 55%;
+    width: 50%;
+    padding-top: 4rem;
  }

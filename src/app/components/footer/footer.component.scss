@@ -20,6 +20,11 @@
 .child3{
     width: 24%;
 }
+
+h3{
+    font-weight: bold;
+}
+
 .email{
     width: 60%;
     outline: 0;
@@ -67,7 +72,7 @@ h5{
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
+    // display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
