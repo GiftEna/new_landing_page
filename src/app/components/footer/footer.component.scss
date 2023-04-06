@@ -1,9 +1,9 @@
-.container{
-    width: 100%;
+.box{
     background-color: #f8f8f8;
 }
 
 .wrapper{
+    margin: 0 auto;
     width: 80%;
 }
 
@@ -17,4 +17,12 @@
 
 .child3{
     width: 24%;
+}
+.email{
+    width: 60%;
+   
+}
+
+a{
+    color: #646464;
 }
