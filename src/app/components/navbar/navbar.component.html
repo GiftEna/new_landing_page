@@ -1,8 +1,8 @@
 <div class="navi">
-    <nav class="navbar navbar-expand-xl">
-        <div class="container-fluid d-flex justify-content-xl-between w-100 m-0 p-0">
+    <nav class="navbar navbar-expand">
+        <div class="container-fluid d-flex justify-content-xl-between w-100 m-0 p-0 main_parent">
             <a class="navbar-brand mypaddi" href="#">MYPADDI</a>
-            <ul class="navbar-nav me-auto mb-2 mb-xl-0 d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0 d-none d-xl-flex">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">About</a>
                     </li>
@@ -16,7 +16,7 @@
                         <a class="nav-link" href="#">Contact us</a>
                     </li>
             </ul>
-            <div class="d-flex">
+            <div class="d-none d-xl-flex">
                 <form class="d-flex" role="search">
                     <input class="form-control me-2 d-none" type="search" placeholder="Search" aria-label="Search">
                     <button type="button" class="btn">
@@ -28,6 +28,34 @@
                         <a class="nav-link" href="#">Log In/Sign Up</a>
                     </li>
                 </ul>
+            </div>
+            <button class="btn mobile-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="collapse collapse_child" id="collapseExample" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                        <div class="modal-line">
+                            <a class="nav-link" href="#">About</a>
+                        </div>
+                        <div class="modal-line">
+                            <a class="nav-link" href="#">Shop</a>
+                        </div>
+                        <div class="modal-line">
+                            <a class="nav-link" href="#">Blog</a>
+                        </div>
+                        <div class="modal-line">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn">Log In</button>
+                        <button type="button" class="btn">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
       </nav>

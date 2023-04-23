@@ -114,3 +114,42 @@ img {
     padding: 1rem;
     width: 95%;
 }
+
+@media only screen and (max-width: 992px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .smalls{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 2rem;
+        height: 15rem;
+    }
+    .bigOneLeft{
+        width: 100%;
+    }
+
+    .products{
+        width: 48%;
+        height: 100%;
+        
+    }
+
+    .sexualHealth{
+        width: 48%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .entiretext{
+        width: 50%;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+
+    
+}

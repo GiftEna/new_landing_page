@@ -19,3 +19,13 @@ a{
     padding-left: 0;
     padding-right: 0;
 }
+
+.main_parent{
+    position: relative;
+}
+
+.collapse_child{
+    position: absolute;
+    right: 0;
+    top: 20%;
+}

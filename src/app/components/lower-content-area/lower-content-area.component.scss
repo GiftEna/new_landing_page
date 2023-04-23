@@ -78,3 +78,22 @@ h3{
     width: 100%;
     height: 46vh;
  }
+
+ @media only screen and (max-width: 992px) {
+    .pills{
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 831px) {
+    .pills{
+        height: 33vh;
+    }
+    .paragraph{
+        width: 55%;
+    }
+
+    .p1{
+        font-size: 12px;
+    }
+}
