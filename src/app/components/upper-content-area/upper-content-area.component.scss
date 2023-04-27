@@ -2,21 +2,35 @@
     width: 100%;
 }
 
-img {
-    object-position: right bottom;
-  }
-  
 .wrapper{
     width: 80%;
     margin: 0 auto;
     padding-bottom: 4rem;
 }
+
+.bigOneLeft{
+    width: 68%;
+    background-color: #afeeff;
+}
+
+.smalls{
+    width: 30%;
+}
+
 .entiretext{
     width: 65%;
     padding-top: 5rem;
     padding-left: 5rem;
     padding-bottom: 0;
     padding-right: 0;
+}
+
+.girlpicture{
+    background-image: url("/assets/png/blue_shape.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 92%;
 }
 
 .p1{
@@ -35,23 +49,6 @@ img {
 
 .p4{
     font-size: 17px;
-}
-
-.girlpicture{
-    background-image: url("/assets/png/blue_shape.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    width: 89%;
-}
-
-.bigOneLeft{
-    width: 68%;
-    background-color: #afeeff;
-}
-
-.smalls{
-    width: 30%;
 }
 
 .sexualHealth{
@@ -115,6 +112,12 @@ img {
     width: 95%;
 }
 
+@media only screen and (max-width:1300px){
+    .entiretext{
+        width: 70%;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .wrapper{
         flex-direction: column;
@@ -142,14 +145,50 @@ img {
     }
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 820px) {
+
     .entiretext{
         width: 50%;
-        padding-top: 2rem;
-        padding-left: 2rem;
+        padding-top: 3rem;
+        padding-left: 3rem;
         padding-bottom: 0;
         padding-right: 0;
     }
 
+    .p1{
+        font-size: 25px;
+    }
     
 }
+
+@media only screen and (max-width: 691px) {
+
+    .p1{
+        font-size: 22px;
+    }
+
+    .p3{
+        padding-top: 1rem;
+        padding-bottom: 1em;
+        font-size: 15px;
+    }
+
+    .stores{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 625px) {
+
+    .p1{
+        font-size: 22px;
+    }
+
+    .p3{
+        font-size: 12px;
+        
+    }
+    
+}
+

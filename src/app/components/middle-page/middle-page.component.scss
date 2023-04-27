@@ -8,22 +8,22 @@
 }
 
 .child1{
-    width: 21%;
+    
 }
 
 .child2{
-    width:21%;
+    
 }
 
 .container3{
-    width: 20%;
     background-color: #f3ede8;
 }
 
 .child3{
-    width: 32%;
     background-color: #e2eeec;
+    margin-left: 1.5rem;
 }
+
 .p1{
     font-weight: bold;
 }
@@ -64,6 +64,7 @@
  h3{
     font-weight: bold;
  }
+
 .first_p{
     color: #777777;
     font-weight: bold;
@@ -80,56 +81,30 @@ h4{
 }
  .grid_child_text{
     width: 45%;
-    padding-top: 4rem;
+    padding-top: 3rem;
  }
 
  .grid_child_picture{
     width: 50%;
-    padding-top: 4rem;
+    padding-top: 3rem;
  }
 
- @media only screen and (max-width: 992px) {
-    .parent{
-        flex-direction: column;
-    }
-
-    .upper_parent{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .child1{
-        width: 45%;
-    }
-
-    .child2{
-        width: 45%;
-    }
-
-    .messenger2{
-        height: 26rem;
-    }
-
-    .p-child{
-        display: none;
-    }
-
-    .lower_parent{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .container3{
-        width: 45%;
+@media only screen and (max-width: 992px) {
+    
+    .red_audiphone{
+        width: 50%;
     }
 
     .child3{
-        width: 45%;
+        margin: 0;
     }
-}
 
-@media only screen and (max-width: 831px) {
-    .upper_parent{
-        padding-bottom: 2rem;
+    .container3{
+        margin-right: 0.5rem;
+    }
+
+    .wrapper{
+        width: 50%;
+        margin-top: 1rem;
     }
 }

@@ -9,10 +9,13 @@ h3{
     width: 30%;
     font-weight: bolder;
     font-size: 30px;
-}.p2{
+}
+
+.p2{
     font-size: 18px;
     color: #333333;
 }
+
 .p3{
     color: #0116b5;
     font-weight: bold;
@@ -21,7 +24,8 @@ h3{
 .image{
     position: relative;
 }
- .image__overlay{
+
+.image__overlay{
     border-radius: 10px;
     position: absolute;
     top: 0;
@@ -40,29 +44,20 @@ h3{
  .image__overlay:hover{
     opacity: 1;
  }
+
  a{
     color:#ffff;
  }
-.child1{
-    width: 24%;
-}
 
-.child2{
-    width: 24%;
-}
-
-.child3{
-    width: 24%;
-}
-
-.child4{
-    width: 20%;
-}
+/* .child4{
+    width: 40%;
+}  */
 
 .fa-circle-chevron-right{
     padding-left: 0.5rem;
 }
- .a1{
+
+.a1{
     font-weight: bold;
  }
 
@@ -74,21 +69,21 @@ h3{
     width: 75%;
     font-weight: bold;
 }
- .pills{
+
+.pills{
     width: 100%;
-    height: 46vh;
  }
 
  @media only screen and (max-width: 992px) {
     .pills{
-        height: 40vh;
-    }
+        height: 45vh;
+    } 
 }
 
 @media only screen and (max-width: 831px) {
-    .pills{
+   /*  .pills{
         height: 33vh;
-    }
+    } */
     .paragraph{
         width: 55%;
     }
