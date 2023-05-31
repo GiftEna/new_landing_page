@@ -9,8 +9,13 @@
 }
 
 .bigOneLeft{
+    height: 46rem;
     width: 68%;
     background-color: #afeeff;
+    background-image: url("/assets/png/blue_shape.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
 .smalls{
@@ -18,37 +23,39 @@
 }
 
 .entiretext{
-    width: 65%;
-    padding-top: 5rem;
+    width: 55%;
+    padding-top: 10rem;
     padding-left: 5rem;
     padding-bottom: 0;
     padding-right: 0;
 }
 
-.girlpicture{
-    background-image: url("/assets/png/blue_shape.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    width: 92%;
+.girlpicture img{
+    margin-top: 0.8rem;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
 }
 
 .p1{
     font-weight: bolder;
+    font-size: 40px;
 }
 
 .p2{
-    font-weight: bold;
+    font-weight: 800;
+    margin-top: 2rem;
+    font-size: 18px;
 }
 
 .p3{
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-size: 17px;
+    font-size: 25px;
 }
 
 .p4{
-    font-size: 17px;
+    font-size: 25px;
 }
 
 .sexualHealth{
@@ -58,10 +65,16 @@
 .products{
     padding: 1rem;
     background-color: #f4ede6 ;
+    background-image: url("/assets/png/beige_semicircle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
 .child_text1{
     width: 55%;
+    margin-left: 3rem;
+    margin-top: 3rem;
 }
 
 .child_picture1{
@@ -79,27 +92,16 @@
 }
 
 .grid_child_text{
-    padding: 2rem;
-    padding-right: 0;
-}
-
-.p2{
-    margin-top: 2rem;
-}
-
-.medicine2{
-    background-image: url("/assets/png/beige_semicircle.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+    margin-left: 5rem;
+    margin-top: 5rem;
 }
 
 .appstore{
-    width: 40%;
+    width: 30%;
 }
 
 .googleplay{
-    width: 40%;
+    width: 30%;
 }
 
 .medicine{
@@ -112,13 +114,49 @@
     width: 95%;
 }
 
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:1440px){
+    .p1{
+        font-size: 35px;
+    }
+
+    .p2{
+        font-size: 15px;
+    }
+
+    .p3{
+        font-size: 20px;
+    }
+
+    .p4{
+        font-size: 20px;
+    }
+
+    .bigOneLeft{
+        height: 30.5rem;
+    }
+
     .entiretext{
-        width: 70%;
+        width: 60%;
+        padding-top: 5rem;
+        padding-left: 3rem;
+    }
+
+    .girlpicture img{
+        margin-top: 4.1rem;
+    }
+
+    .child_text1{
+        margin-left: 1.5rem;
+        margin-top: 0;
+    }
+
+    .grid_child_text{
+        margin-left: 1.5rem;
+        margin-top: 1rem;
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
     .wrapper{
         flex-direction: column;
     }
@@ -133,6 +171,10 @@
         width: 100%;
     }
 
+    .girlpicture img{
+        margin-top: 3.4rem;
+    }
+
     .products{
         width: 48%;
         height: 100%;
@@ -143,9 +185,17 @@
         width: 48%;
         height: 100%;
     }
+
+    .logo{
+        width: 70% !important;
+    }
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 768px) {
+
+    .wrapper{
+        padding-bottom: 3rem;
+    }
 
     .entiretext{
         width: 50%;
@@ -159,36 +209,125 @@
         font-size: 25px;
     }
     
+    .appstore{
+        width: 45%;
+    }
+    
+    .googleplay{
+        width: 45%;
+    }
+
+    .girlpicture img{
+        margin-top: 5.3rem;
+    }
+
+    .logo{
+        width: 78% !important;
+    }
+    
 }
 
-@media only screen and (max-width: 691px) {
+@media only screen and (max-width: 425px) {
+    .girlpicture{
+        display: none;
+    }
+
+    .audiophone{
+        display: none;
+    }
+
+    .medicine{
+        display: none;
+    }
+
+    .bigOneLeft{
+        height: 20rem;
+    }
+
+    .entiretext{
+        width: 100%;
+        padding-top: 4rem;
+        padding-left: 2rem;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
 
     .p1{
         font-size: 22px;
     }
 
+    .p2{
+        font-size: 12px;
+        margin-top: 0.5rem;
+    }
+
     .p3{
-        padding-top: 1rem;
-        padding-bottom: 1em;
         font-size: 15px;
+    }
+
+    .p4{
+        font-size: 13px;
     }
 
     .stores{
         width: 100%;
     }
     
-}
-
-@media only screen and (max-width: 625px) {
-
-    .p1{
-        font-size: 22px;
+    .products{
+        background-image: none;
+        height: 12rem;
     }
 
-    .p3{
-        font-size: 12px;
-        
+    .child_text1{
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 0;
+    }
+
+    .grid_child_text{
+        width: 100%;
+    }
+
+    .sexualHealth{
+        height: 12rem;
+    }
+
+    .wrapper{
+        padding-bottom: 1rem;
+    }
+
+    .logo{
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .wrapper{
+        padding-bottom: 0;
     }
     
-}
+    .entiretext{
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+    
+    .child_text1{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .p1{
+        font-size: 20px;
+    }
+
+    .p2{
+        font-size: 10px;
+    }
+
+    .logo{
+        visibility: hidden;
+    }
+
+} 
 
