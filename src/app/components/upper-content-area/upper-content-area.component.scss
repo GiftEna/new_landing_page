@@ -40,7 +40,7 @@
     max-height: 100%;
     max-width: 100%;
     position: absolute;
-    left: 50%;
+    left: 53.4%;
 }
 
 .p1{
@@ -81,8 +81,8 @@
 
 .child_text1{
     width: 55%;
-    margin-left: 3rem;
-    margin-top: 3rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
 }
 
 .child_picture{
@@ -99,10 +99,10 @@
     grid-template-columns: 1fr 1fr;
 } */
 
-/* .grid_child_text{
-    margin-left: 5rem;
-    margin-top: 5rem;
-} */
+.grid_child_text{
+    padding-left: 3rem;
+    padding-top: 5rem;
+} 
 
 .appstore{
     width: 30%;
@@ -127,7 +127,7 @@
         height: 30rem;
     }
     .p1{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .p2{
@@ -153,44 +153,53 @@
     // }
 
     .child_text1{
-        margin-left: 1.5rem;
-        margin-top: 0;
+        padding-left: 1.5rem;
+        padding-top: 0;
     }
 
     .grid_child_text{
-        margin-left: 1.5rem;
-        margin-top: 1rem;
+        padding-left: 1.5rem;
+        padding-top: 1rem;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .wrapper{
         flex-direction: column;
+        height: 40rem;
     }
+
+    .entiretext{
+        padding: 2rem;
+    }
+
     .smalls{
         display: flex;
         width: 100%;
+        flex-direction: row;
         justify-content: space-between;
         margin-top: 2rem;
-        height: 15rem;
     }
     .bigOneLeft{
         width: 100%;
     }
 
     .girlpicture img{
-        margin-top: 3.4rem;
+        left: 65.4%;
     }
 
     .products{
         width: 48%;
         height: 100%;
-        
     }
 
     .sexualHealth{
         width: 48%;
-        height: 100%;
+        height: 100%;    
+    }
+
+    .grid_child_text{
+        padding-top: 3rem;
     }
 
     .logo{
@@ -201,15 +210,12 @@
 @media only screen and (max-width: 768px) {
 
     .wrapper{
-        padding-bottom: 3rem;
+        height: 45rem;
     }
 
     .entiretext{
         width: 50%;
-        padding-top: 3rem;
-        padding-left: 3rem;
-        padding-bottom: 0;
-        padding-right: 0;
+        padding: 2rem;
     }
 
     .p1{
@@ -225,7 +231,11 @@
     }
 
     .girlpicture img{
-        margin-top: 5.3rem;
+        left: 48.8%;
+    }
+
+    .audiophone{
+        padding-top: 5rem;
     }
 
     .logo{
@@ -235,6 +245,11 @@
 }
 
 @media only screen and (max-width: 425px) {
+
+    .wrapper{
+        height: 35rem;
+    }
+
     .girlpicture{
         display: none;
     }
@@ -253,10 +268,6 @@
 
     .entiretext{
         width: 100%;
-        padding-top: 4rem;
-        padding-left: 2rem;
-        padding-bottom: 0;
-        padding-right: 0;
     }
 
     .p1{
@@ -282,21 +293,14 @@
     
     .products{
         background-image: none;
-        // height: 12rem;
     }
 
     .child_text1{
         width: 100%;
-        margin-left: 1rem;
-        margin-top: 0;
     }
 
     .grid_child_text{
         width: 100%;
-    }
-
-    .sexualHealth{
-        height: 12rem;
     }
 
     .wrapper{
@@ -320,8 +324,11 @@
     
     .child_text1{
         width: 100%;
-        margin-left: 0;
-        margin-top: 0;
+        padding-left: 0;
+    }
+
+    .grid_child_text{
+        padding-left: 1rem;
     }
 
     .p1{

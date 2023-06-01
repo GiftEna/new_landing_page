@@ -5,18 +5,19 @@
     margin-bottom: 8rem;
 }
 
-h3{
+h2{
     width: 30%;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .p2{
-    font-size: 18px;
+    font-size: 25px;
     color: #333333;
 }
 
 .p3{
+    font-size: 25px;
     color: #0116b5;
     font-weight: bold;
 }
@@ -63,6 +64,7 @@ h3{
 
 .p1{
     padding-top: 1.5rem;
+    font-size: 25px;
 }
 
 .div1{
@@ -71,24 +73,96 @@ h3{
 }
 
 .pills{
-    width: 100%;
+    width: 70%;
+    height: 43rem;
  }
 
- @media only screen and (max-width: 992px) {
+ @media only screen and (max-width: 1440px) {
     .pills{
-        height: 45vh;
-    } 
-}
-
-@media only screen and (max-width: 831px) {
-   /*  .pills{
-        height: 33vh;
-    } */
-    .paragraph{
-        width: 55%;
+        height: 24rem;
     }
 
     .p1{
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 30px;
+        width: 60%;
+    }
+
+    .p2{
+        font-size: 20px;
+    }
+
+    .p3{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .pills{
+        height: 15.7rem;
+    }
+
+    .p1{
+        font-size: 14px;
+    }
+
+    h2{
+        font-size: 20px;
+        width: 60%;
+    }
+
+    .p2{
+        font-size: 18px;
+    }
+
+    .p3{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pills{
+        height: 25.5rem;
+    }
+    .p1{
+        font-size: 14px;
+    }
+
+    h2{
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .p2{
+        font-size: 15px;
+    }
+
+    .p3{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .p1{
+        font-size: 14px;
+    }
+
+    h2{
+        font-size: 14px;
+        width: 50%;
+    }
+
+    .p2{
         font-size: 12px;
     }
+
+    .p3{
+        font-size: 12px;
+    }
+
 }
